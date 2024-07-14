@@ -1,0 +1,119 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #040137;
+    padding: 0.5em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+header nav ul li.logo img {
+    height: 30px; /* Définir la hauteur maximale */
+    width: auto; /* La largeur s'ajuste automatiquement pour maintenir les proportions */
+}
+
+
+.container {
+    display: flex;
+    padding: 2em;
+}
+
+.left-column {
+    width: 30%;
+    padding-right: 2em;
+}
+
+.right-column {
+    width: 70%;
+    padding-left: 2em;
+    border-left: 1px solid #cccccc;
+}
+
+input#search-bar {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #040137;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #040137;
+}
+
+ul#word-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#word-list li {
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+ul#word-list li:hover {
+    text-decoration: underline;
+}
+
+.right-column p {
+    margin: 0;
+}
+
+footer {
+    background-color: #040137;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Styles spécifiques aux pages */
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 150px); /* Hauteur de l'écran moins le header et le footer */
+    text-align: center;
+}

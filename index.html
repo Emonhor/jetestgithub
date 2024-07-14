@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Petit Dico Du Chercheur</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="logo"><a href="index.html"><img src="images/LPDDC-LOGO.png" alt="Logo"></a></li>
+                <li><a href="index.html">Dictionnaire</a></li>
+                <li><a href="a-propos.html">À-propos</a></li>
+                <li><a href="version.html">Version</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <aside class="left-column">
+                <input type="text" id="search-bar" placeholder="Rechercher un mot...">
+                <button onclick="searchWord()">Rechercher</button>
+                <ul id="word-list">
+                    <!-- Liste des mots en ordre alphabétique -->
+                </ul>
+            </aside>
+            <section class="right-column" id="definition-display">
+                <!-- Affichage des définitions -->
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Le Petit Dico Du Chercheur. <a href="cgu.html">Conditions Générales d'Utilisation</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
